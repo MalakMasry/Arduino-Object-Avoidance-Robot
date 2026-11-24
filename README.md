@@ -4,15 +4,13 @@ An autonomous Arduino-based robot that drives forward until it detects an obstac
 
 Built for **CSAI 205 – Fundamentals of Circuits and Electronics** (Project 4) at the University of Science and Technology, Zewail City, under Assoc. Prof. Mohamed Maher Ata.
 
-![Object avoidance robot](Photo-1.jpg)
-
 ---
 
 ## 📸 Gallery
 
 | Top view | On the floor |
 |:---:|:---:|
-| ![Top view of the robot](Photo-2.jpg) | ![Robot on a tiled floor](Photo-3.jpg) |
+| ![Top view of the robot](Photo%202.jpeg) | ![Robot on a tiled floor](Project%20Photo.jpeg) |
 
 ---
 
@@ -98,10 +96,17 @@ If a reading times out (for example, on an angled wall), the robot waits 25 ms a
 ## 🚀 Getting Started
 
 1. Assemble the chassis, motors and wheels, and mount the HC-SR04 on the servo at the front.
-2. Wire everything as shown in the [wiring diagram](#-wiring) and the pin table.
+2. Wire everything as shown in the pin table above.
 3. Install the 3 × 18650 cells in the holder.
-4. Upload the sketch to the Arduino Uno using the Arduino IDE (power the board over USB while uploading).
+4. Open [`arduino_code.ino`](arduino_code.ino) in the Arduino IDE and upload it to the Arduino Uno (power the board over USB while uploading).
 5. Disconnect USB, press the power button, and place the robot on a clear floor. It starts driving immediately.
+
+---
+
+## 📄 Files
+
+- [`arduino_code.ino`](arduino_code.ino): the Arduino sketch
+- [`Project Report.pdf`](Project%20Report.pdf): the full project report
 
 ---
 
@@ -117,7 +122,7 @@ If a reading times out (for example, on an angled wall), the robot waits 25 ms a
 ## 👩‍💻 Team
 
 - Malak Nabil | 202505022 | s-malak.masry@zewailcity.edu.eg 
-- Basma Alaa | 202500612 | s-basma.mohamed@zewailcity.edu.eg
+- Basma Alaa | 202500612 | s-basma.mohamed@zewailcity.edu.eg 
 - Malak Assem | 202505335 | s-malak.ibrahim@zewailcity.edu.eg
 
 *University of Science and Technology, Zewail City, CSAI 205, Fundamentals of Circuits and Electronics.*
